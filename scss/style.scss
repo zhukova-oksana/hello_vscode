@@ -1,0 +1,25 @@
+@import "_header";
+
+h1 {
+	color: green;
+	font-size: 14px;
+}
+
+body {
+	font-size: 20px;
+	div {
+		font-size: 10px;
+	}
+}
+.block {
+	&__item {
+		font-size: 12px;
+	}
+
+	&__ {
+		background: #000;
+	}
+}
+.red {
+	color: #f00;
+}
