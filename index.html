@@ -2,24 +2,553 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/style.css" />
-	<title>Document</title>
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	<link href="favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<title>Институт воспитания</title>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-	<h1>Привет</h1>
-	<div class="block">
-		<span class="block__item"></span>
-		<span class="block__item red"></span>
-		<img src="/" alt="">
-	</div>
-	<div class="block__"></div>
+	<header class="header">
+		<div class="header__title">Федеральное государственное бюджетное научное учреждение
+			«Институт изучения детства, семьи и воспитания
+			Российской академии образования»</div>
+		<div class="container">
+			<div class="header__body">
+				<div class="header__logo">
+					<a href="/">
+						<img src="images/logo_big.svg" alt="" class="logo">
+						<img src="images/logo_mob.svg" alt="" class="logo-mob">
+					</a>
+				</div>
+				<div class="header__right">
+					<!-- <div class="right__top">
+						<div class="header__search">
+							<form action="">
+								<input type="text" name="" id="" placeholder="Поиск">
+								<button type="submit"></button>
+							</form>
+						</div>
+						<div class="header__authorization">
+							<div class="name">Фёдор Достоевский</div>
+							<a href="#" class="exit"></a>
+						</div>
+					</div> -->
+					<div class="header__burger">
+						<span></span>
+					</div>
+					<div class="header__menu">
+						<ul>
+							<li class="header__item" tabindex="1"><a class="active" href="#">Институт</a>
+								<div class="header__submenu">
+									<ul>
+										<li><a href="#">Об институте</a></li>
+										<li><a href="#">Мероприятия</a></li>
+										<li><a href="#">Структура</a></li>
+										<li><a href="projects.html">Проекты</a></li>
+										<li><a href="#">Экспертный совет</a></li>
+										<li><a href="#">Документы</a></li>
+										<li><a href="#">Диссертационный совет</a></li>
+										<li><a href="#">Наши партнеры</a></li>
+										<li><a href="#">Ученый совет</a></li>
+										<li><a href="#">Контакты</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="header__item" tabindex="1"><a href="#">Родителям</a>
+								<div class="header__submenu">
+									<ul>
+										<li><a href="#">Обучение</a></li>
+										<li><a href="#">Специальные проекты</a></li>
+										<li><a href="#">Рекомендации по воспитанию</a></li>
+										<li><a href="#">Обзоры научных публикаций</a></li>
+										<li><a href="#">Инструментарий для развития ребенка</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="header__item"><a href="#">Организациям</a>
+								<div class="header__submenu">
+									<ul>
+										<li><a href="#">Обучение</a></li>
+										<li><a href="#">Обзоры лучших практик</a></li>
+										<li><a href="#">Федеральное законодательство</a></li>
+										<li><a href="#">Научно-методические рекомендации и пособия</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="header__item"><a href="#">Педагогам и воспитателям</a>
+								<div class="header__submenu">
+									<ul>
+										<li><a href="#">Обучение</a></li>
+										<li><a href="#">Обзор лучших практик</a></li>
+										<li><a href="#">Инструментарий для педагога</a></li>
+										<li><a href="#">Методические рекомендации и пособия</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="header__item"><a href="#">Пресс-центр</a>
+								<div class="header__submenu">
+									<ul>
+										<li><a href="#">Анонсы</a></li>
+										<li><a href="#">Новости</a></li>
+										<li><a href="#">Научные публикации</a></li>
+										<li><a href="#">Партнерские материалы</a></li>
 
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="slider">
+		<div class="container">
+			<div class="single-slide">
+				<div>
+					<a href="#">
+						<div class="slider__fon"></div>
+						<img src="images/slide0.jpg" alt="">
+					</a>
+					<div class="slider__text">
+						<a href="#">
+							<div class="slider__title">Большая онлайн-конференция «Воспитатели России-2020»</div>
+							<p>Основная цель проекта — содействие в реализации государственной политики Российской
+								Федерации
+								в сфере дошкольного образования путем...</p>
+						</a>
+					</div>
+				</div>
+				<div>
+					<a href="#">
+						<div class="slider__fon"></div>
+						<img src="images/slide0.jpg" alt="">
+					</a>
+					<div class="slider__text">
+						<a href="#">
+							<div class="slider__title">Большая онлайн-конференция «Воспитатели России-2020»</div>
+							<p>Основная цель проекта — содействие в реализации государственной политики Российской
+								Федерации
+								в сфере дошкольного образования путем...</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="projects">
+		<div class="container">
+			<div class="projects__title title">Проекты</div>
+			<div class="projects__slide">
+				<div class="projects__item projects__item_1">
+					<a href="#">
+						<img src="images/project01.png" alt="">
+						<span>От Фребеля до робота: растим будущих инженеров</span>
+					</a>
+				</div>
+				<div class="projects__item projects__item_2">
+					<a href="#">
+						<img src="images/project02.png" alt="">
+						<span>актуализация проблем поддержки детских общественных организаций</span>
+					</a>
+				</div>
+				<div class="projects__item projects__item_3">
+					<a href="#">
+						<img src="images/project03.png" alt="">
+						<span>Проект «Раннее детство: наука, образование, практика»</span>
+					</a>
+				</div>
+				<div class="projects__item projects__item_4">
+					<a href="#">
+						<img src="images/project04.png" alt="">
+						<span>STEM-образование детей дошкольного возраста</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="press">
+		<div class="container">
+			<div class="press__title title">Пресс-центр</div>
+			<div class="press__body">
+				<div class="press__big">
+					<a href="#"><img src="images/foto.jpg" alt=""></a>
+					<div class="press__text">
+						<a class="press__link" href="#">
+							<p><span>15.08.2020</span></p>
+							<h3>На что обращать внимание при выборе частного детского сада</h3>
+							<p>Частный детский сад – это дошкольное образовательное учреждение, учредителем
+								которого
+								является индивидуальный
+								предприниматель, коммерческая или некоммерческая ...</p>
+						</a>
+					</div>
+				</div>
+				<div class="press__list">
+					<div class="press__item">
+						<a href="#">
+							<div class="press__data">06.06.2020</div>
+							<p>Научно-просветительский проект «Сфера инклюзии» вышел в полуфинал конкурса
+								«Доброволец России»</p>
+						</a>
+					</div>
+					<div class="press__item">
+						<a href="#">
+							<div class="press__data">06.06.2020</div>
+							<p>Как разговорить ребенка? 5 советов</p>
+						</a>
+					</div>
+					<div class="press__item">
+						<a href="#">
+							<div class="press__data">06.06.2020</div>
+							<p>4 способа разрешения конфликта с ребенком</p>
+						</a>
+					</div>
+					<div class="press__item">
+						<a href="#">
+							<div class="press__data">06.06.2020</div>
+							<p>Важно сформировать у населения спрос на воспитательные программы</p>
+						</a>
+					</div>
+					<div class="press__item">
+						<a href="#">
+							<div class="press__data">06.06.2020</div>
+							<p>Научно-просветительский проект «Сфера инклюзии» вышел в полуфинал конкурса
+								«Доброволец России»</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="training">
+		<div class="container">
+			<div class="training__title title">Обучение</div>
+			<div class="training__body">
+				<div class="training__slide">
+					<div class="training__item">
+						<a href="#">
+							<img src="images/training1.png" alt="">
+							<div class="training__panel webinar">
+								<div class="training__data">20.12.2020</div>
+								<div class="training__name">Вебинар</div>
+							</div>
+							<div class="training__info">
+								Профессиональный стандарт «Педагог». Развитие детей дошкольного возраста
+								посредством технологии развития способности
+								организации действия в соответствии с ФГОС ДО
+							</div>
+						</a>
+					</div>
+					<div class="training__item">
+						<a href="#">
+							<img src="images/training2.png" alt="">
+							<div class="training__panel course">
+								<div class="training__data">20.12.2020</div>
+								<div class="training__name">Курс</div>
+							</div>
+							<div class="training__info">
+								Методология и технология реализации федерального государственного
+								образовательного стандарта начального общего
+								образования обучающихся с ограниченными...
+							</div>
+						</a>
+					</div>
+					<div class="training__item">
+						<a href="#">
+							<img src="images/training3.png" alt="">
+							<div class="training__panel seminar">
+								<div class="training__data">20.12.2020</div>
+								<div class="training__name">Семинар</div>
+							</div>
+							<div class="training__info">
+								Применение методов образовательной кинезиологии в образовательных организациях,
+								реализующих ФГОС НОО для детей с ОВЗ
+							</div>
+						</a>
+					</div>
+					<div class="training__item">
+						<a href="#">
+							<img src="images/training2.png" alt="">
+							<div class="training__panel course">
+								<div class="training__data">20.12.2020</div>
+								<div class="training__name">Курс</div>
+							</div>
+							<div class="training__info">
+								Методология и технология реализации федерального государственного
+								образовательного стандарта начального общего
+								образования обучающихся с ограниченными...
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="events">
+		<div class="container">
+			<div class="events__title title">
+				Мероприятия
+			</div>
+			<div class="events__body">
+				<div class="events__slide">
+					<div class="events__item">
+						<a href="#">
+							<img src="images/event1.png" alt="">
+							<h3>Грамотно «тушить огонь», или как учителю общаться с родителями</h3>
+						</a>
+						<p>Статья за 30 августа 2018 года, в которой эксперты ИИДСВ РАО рассказали РИА
+							Новости пять шагов к неконфликтному общению
+							с родителями со стороны современного учителя. Как помочь ребенку, понимая разницу между
+							домом и школой, но сталкиваясь с
+							разными точками зрения на этот вопрос и другие.</p>
+					</div>
+					<div class="events__item">
+						<a href="#">
+							<img src="images/event2.png" alt="">
+							<h3>Грамотно «тушить огонь», или как учителю общаться с родителями</h3>
+						</a>
+						<p>Статья за 30 августа 2018 года, в которой эксперты ИИДСВ РАО рассказали РИА
+							Новости пять шагов к неконфликтному общению
+							с родителями со стороны современного учителя. Как помочь ребенку, понимая разницу между
+							домом и школой, но сталкиваясь с
+							разными точками зрения на этот вопрос и другие.</p>
+					</div>
+					<div class="events__item">
+						<a href="#"><img src="images/event3.png" alt="">
+							<h3>Грамотно «тушить огонь», или как учителю общаться с родителями</h3>
+						</a>
+						<p>Статья за 30 августа 2018 года, в которой эксперты ИИДСВ РАО рассказали РИА
+							Новости пять шагов к неконфликтному общению
+							с родителями со стороны современного учителя. Как помочь ребенку, понимая разницу между
+							домом и школой, но сталкиваясь с
+							разными точками зрения на этот вопрос и другие.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="subscribe">
+		<div class="container">
+			<div class="subscribe__title">Получайте актуальную информацию</div>
+			<div class="subscribe__form">
+				<form action="">
+					<input type="text" name="" id="" placeholder="Введите ваш e-mail" class="subscribe__input">
+					<button type="submit" class="subscribe__button">подписаться на рассылку</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="recommendation">
+		<div class="container">
+			<div class="recommendation__title title">Рекомендации и пособия</div>
+			<div class="recommendation__body">
+				<div class="recommendation__item">
+					<a href="#">
+						<img src="images/recommendation1.png" alt="">
+						<p>Опубликован аналитический отчет: социальная адаптация от первого лица</p>
+					</a>
+					<p>В нашем институте вышел «Аналитический отчет: социальная адаптация от первого лица». Этот сборник
+						фактов, результатов и технологий, написанный группой авторов (Т. А. Араканцева, И. А. Бобылева,
+						О. Г. Ерома, О. В.
+						Заводилкина, А. В. Найденова, Т. А. Никушина) на базе ФГБНУ «ИИДСВ РАО», содержит
+						профессиональную оценку
+						обобщенного социального влияния деятельности социально ориентированных некоммерческих
+						организаций города Москвы</p>
+				</div>
+				<div class="recommendation__item">
+					<a href="#">
+						<img src="images/recommendation2.png" alt="">
+						<p>Сборник статей Научно-практической интернет-конференции с международным участием
+							«Цифровое
+							поколение и педагогические реалии современной России»</p>
+					</a>
+					<p>В ноябре-декабре 2016 г. лабораторией психолого-педагогических проблем самоорганизации детей
+						и взрослых ФГБНУ «ИИДСВ РАО» в рамках реализации государственного задания по теме 1902
+						«Методология и методика
+						подготовки педагогов к осуществлению педагогического сопровождения самоорганизации детей» была
+						проведена
+						Научно-практическая интернет-конференция с международным участием «Цифровое поколение
+						и педагогические реалии
+						современной России».</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="legislation">
+		<div class="container">
+			<div class="legislation__title title">Федеральное законодательство</div>
+			<div class="legislation__body">
+				<div class="legislation__item">
+					<div class="legislation__icon">
+						<a href="#" target="_blank"><img src="images/icon_pdf.svg" alt="">
+							<p>120 Кб</p>
+						</a>
+					</div>
+					<div class="legislation__info">
+						<a href="#" target="_blank"><b>Распоряжение Минобрнауки России от 27 июля 2020 г. № 279-р</b> «О
+							возобновлении проведения выборов руководителей...</a>
+					</div>
+				</div>
+				<div class="legislation__item">
+					<div class="legislation__icon">
+						<a href="#" target="_blank"><img src="images/icon_pdf.svg" alt="">
+							<p>120 Кб</p>
+						</a>
+					</div>
+					<div class="legislation__info">
+						<a href="#" target="_blank"><b>Распоряжение Минобрнауки России от 27 июля 2020 г. № 279-р</b> «О
+							возобновлении проведения выборов руководителей...</a>
+					</div>
+				</div>
+				<div class="legislation__item">
+					<div class="legislation__icon">
+						<a href="#" target="_blank"><img src="images/icon_pdf.svg" alt="">
+							<p>120 Кб</p>
+						</a>
+					</div>
+					<div class="legislation__info">
+						<a href="#" target="_blank"><b>Распоряжение Минобрнауки России от 27 июля 2020 г. № 279-р</b> «О
+							возобновлении проведения выборов руководителей...</a>
+					</div>
+				</div>
+				<div class="legislation__item">
+					<div class="legislation__icon">
+						<a href="#" target="_blank"><img src="images/icon_pdf.svg" alt="">
+							<p>120 Кб</p>
+						</a>
+					</div>
+					<div class="legislation__info">
+						<a href="#" target="_blank"><b>Приказ Минобрнауки России от 21 июля 2020 г.№ 459/нк</b> «О
+							присвоении ученого звания профессора и выдаче аттестата о
+							присвоении ученого звания профессора» Полное название</a>
+					</div>
+				</div>
+				<div class="legislation__item">
+					<div class="legislation__icon">
+						<a href="#" target="_blank"><img src="images/icon_pdf.svg" alt="">
+							<p>120 Кб</p>
+						</a>
+					</div>
+					<div class="legislation__info">
+						<a href="#" target="_blank"><b>Распоряжение Минобрнауки России от 27 июля 2020 г. № 279-р</b> «О
+							возобновлении проведения выборов руководителей...</a>
+					</div>
+					<div class="legislation__button">
+						<a href="#">Скачать</a>
+					</div>
+				</div>
+				<div class="legislation__item legislation__item_active">
+					<div class="legislation__icon">
+						<img src="images/icon_pdf.svg" alt="">
+						<p>120 Кб</p>
+					</div>
+					<div class="legislation__info">
+						<a href="#" target="_blank"><b>Распоряжение Минобрнауки России от 27 июля 2020 г. № 279-р</b> «О
+							возобновлении проведения выборов руководителей...</a>
+					</div>
+					<div class="fill-in legislation__button">
+						<a href="#">Скачать</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<div class="copy">
+				<img src="images/logo.png" alt="">
+				<p>© 2020 Федеральное государственное бюджетное научное учреждение «Институт изучения детства,
+					семьи и воспитания Российской академии образования»</p>
+			</div>
+			<div class="footer__icons">
+				<a href="#"><img src="images/icon_fb.svg" alt=""></a>
+				<a href="#"><img src="images/icon_ins.svg" alt=""></a>
+				<a href="#"><img src="images/icon_vk.svg" alt=""></a>
+				<a href="#"><img src="images/icon_dz.svg" alt=""></a>
+			</div>
+			<div class="menu">
+				<div class="menu__item">
+					<p><a href="#">Родителям</a></p>
+					<ul>
+						<li><a href="#">Рекомендации по воспитанию</a></li>
+						<li><a href="#">Обзоры научных публикаций</a></li>
+						<li><a href="#">Инструментарий для развития ребенка</a></li>
+						<li><a href="#">Обучение</a></li>
+						<li><a href="#">Специальные проекты</a></li>
+					</ul>
+				</div>
+				<div class="menu__item">
+					<p><a href="#">Образовательным организациям</a></p>
+					<ul>
+						<li><a href="#">Научно-методические рекомендации и пособия</a></li>
+						<li><a href="#">Обзоры лучших практик</a></li>
+						<li><a href="#">Обучение</a></li>
+						<li><a href="#">Федеральное законодательство</a></li>
+					</ul>
+				</div>
+				<div class="menu__item">
+					<p><a href="#">Педагогам и воспитателям</a></p>
+					<ul>
+						<li><a href="#">Методические рекомендации и пособия</a></li>
+						<li><a href="#">Инструментарий для педагога</a></li>
+						<li><a href="#">Обучение</a></li>
+						<li><a href="#">Обзор лучших практик</a></li>
+					</ul>
+				</div>
+				<div class="menu__item">
+					<p><a href="#">Институт</a></p>
+					<ul>
+						<li><a href="#">Об институте</a></li>
+						<li><a href="#">Структура</a></li>
+						<li><a href="#">Экспертный совет</a></li>
+						<li><a href="#">Диссертационный совет</a></li>
+						<li><a href="#">Ученый совет</a></li>
+						<li><a href="#">Мероприятия</a></li>
+						<li><a href="/projects.html">Проекты</a></li>
+						<li><a href="#">Документы</a></li>
+						<li><a href="#">Наши партнеры</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</div>
+				<div class="menu__item">
+					<p><a href="#">Пресс-центр</a></p>
+					<ul>
+						<li><a href="#">Анонсы</a></li>
+						<li><a href="#">Научные публикации</a></li>
+						<li><a href="#">Партнерские материалы</a></li>
+						<li><a href="#">Новости</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="information">
+				<div class="information__left">
+					<div class="logo-min">
+						<img src="images/logo_min.png" alt="">
+						<p>Министерство просвещения Российской Федерации</p>
+					</div>
+					<div class="logo-copy">
+						<img src="images/logo.png" alt="">
+						<p>© 2020 Федеральное государственное бюджетное научное учреждение «Институт изучения детства,
+							семьи и воспитания Российской академии образования»</p>
+					</div>
+				</div>
+				<div class="information__right">
+					<p><a href="#">Соглашение о персональных даннных</a></p>
+					<p><a href="#">Контактная информация</a></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script src="js/script.js"></script>
 </body>
 
 </html>
